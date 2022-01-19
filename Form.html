@@ -16,7 +16,6 @@
             background-color: #CCFFD7 ;
             height: 380px;
             width: 400px;
-            
         }
 
         .col-md-4 img{
@@ -27,7 +26,6 @@
             background-color:#0000000A ;
             height: 380px;
             width: 400px;
-            
         }
 
        .container form .mb-2.mt-5.col-sm-9 {
@@ -62,7 +60,7 @@
        }
 
        .container form .mb-3.mt-5.col-sm-9 {
-        border: 1px solid white;
+            border: 1px solid white;
             border-radius:3px;
             border-bottom: 3px solid #34C153;
             padding: 8.0px 10px;
@@ -76,7 +74,7 @@
        }
 
        .container form #pwd {
-        width: 100%;
+           width: 100%;
            background: white;
            border-radius: 3px;
            border: 1px solid white;
@@ -94,7 +92,6 @@
 
       .container form ul {
         margin-top: 20px;
-        
       }
 
       .container form  a {
@@ -106,12 +103,14 @@
         display: inline;
         margin-left: 5px;
         font-size: 13px;
+        color: #34C153;
       }
 
       .secondlist {
         display: inline;
         margin-left: 80px;
         font-size: 13px;
+        color: #34C153;
       }
 
 
@@ -136,40 +135,26 @@
       }
 
       .container .form-group form{
-        margin-top: 90px
-
+        margin-top: -30px
+      }
+      
+      .header p {
+        padding-top:30px;
+        margin-left: 45px;
+        font-weight: 650;
+      }
+      .header p a {
+        text-decoration: none;
+        color: #3c4858 ;
 
       }
 
+     
 
-    /*  @media only screen and (max-width: 575px) {
-        .col-md-4{
-            background-color: #CCFFD7 ; 
-            height: 380px;
-            width: 400px;
-        }
-
-        .col-md-4 img{
-            margin-left: -20px;
-        }
-
-        .second.col-md-4 {
-            background-color:#0000000A ;
-            height: 380px;
-            width: 400px;
-        }
-
-        .container .form-group {
-            margin-left: -35px;
-        }
-
-    
-    
-}*/
+     
+      
 
 
-
-        
     </style>
 </head>
 <body>
@@ -180,6 +165,10 @@
                 <img src="Rectangle 2.png" alt="" class="img-fluid">
             </div>
             <div class="second col-md-4  ">
+              
+              <header class="header">
+                <p><a href=""> <span class="iconify" data-icon="akar-icons:arrow-left"></span> &nbsp; Go back to Home Page </a></p>
+              </header>
                 <div class="form-group">
                 <form action="/action_page.php" >
                     <div class="mb-2 mt-5 col-sm-9" >
@@ -199,7 +188,7 @@
                 
                    <ul>
                     <a href="Signup.html"><b><li class="firstlist">Sign Up</li></b></a>
-                     <b><li class="secondlist">Forget Password?</li></b>
+                     <a href="Forgetpassword.html"><b><li class="secondlist">Forget Password?</li></b></a>
                    </ul>
 
 
